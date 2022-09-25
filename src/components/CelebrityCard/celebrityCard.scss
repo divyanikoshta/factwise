@@ -1,0 +1,84 @@
+.card {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+}
+.summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 20px;
+    .image {
+        border-radius: 50%;
+    }
+}
+.view-mode{
+    text-align: end;
+}
+.summaryBorder {
+    border: 1px solid lightGrey;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.textArea {
+    padding: 0.5rem;
+    border: 1px solid lightGrey;
+    border-radius: 10px;
+    max-width: 95%;
+    min-width: 95%;
+    font-family: Roboto;
+    font-size: 16px;
+    max-height: 8rem;
+    min-height: 8rem;
+}
+.celeb-detail-view {
+    display: flex;
+    gap: 20%;
+    margin-bottom: 1rem;
+}
+.celeb-detail-edit {
+    display: flex;
+    gap: 8%;
+    margin-bottom: 1rem;
+}
+.label {
+    color: #bbb9b9;
+}
+.edit-mode {
+    display: flex;
+    justify-content: space-between;
+}
+.edit-mode-btn {
+    text-align: end;
+    margin-left: auto;
+}
+.error-msg {
+    color: red;
+}
+.action-button {
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn-red {
+    color: orangered;
+}
+.btn-green {
+    color: #0ec522;
+}
+.btn-blue {
+    color: #1e90ff;
+}
+.ml-1 {
+    margin-left: 1rem;
+}
+.ml-2 {
+    margin-left: 2rem;
+}
+.ml-a {
+    margin-left: auto;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
